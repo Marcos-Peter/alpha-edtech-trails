@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(114, 199, 118);
+        }
+        .uc {
+            text-transform: uppercase;
+        }
+        .utl {
+            text-align: justify;
+            padding-left: 40%;
+            padding-right: 40%;
+        }
+        .search {
+            border: 1px solid rgb(12, 65, 10);
+            border-radius: 5px;
+        }
+        #logo {
+            max-width: 40px;
+            padding-right: 60%;
+        }
+        h3 {
+            text-align: center;
+        }
+        h1 {
+            border-bottom: 1px solid #000;
+            padding-bottom: 2rem;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        section {
+            text-align: justify;
+            max-width: 75%;
+            padding-left: 12.5%;
+        }
+        footer {
+            border-top: 1px solid #000;
+            text-align: right;
+            padding-top: .8rem;
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Atividades da Aula 05 - Módulo 02 (Trilha Front End)
+            </h1>
+        </header>
+        <section>
+            <article>
+                <ol>
+                    <li>
+                        <b class="uc">
+                            Responda quais são as diferenças entre os elementos 'div' e 'spam' na construção de páginas HTML.
+                        </b> <br />
+                        <small>Resposta:</small> <br />
+                        Os elementos 'div' são elementos sem nenhum significado específico, ou seja, é apenas uma 'divisão', um container genérico dentro da página HTML que podem fazer o uso de atributos globais incusive 'class' e 'id' para facilitar a estilização com CSS. Tem a finalidade de agrupar elementos em blocos e devem ser utilizados apenas quando não houver outros elementos semânticos mais apropriados. O elemento 'spam' compartilha das mesmas características, com a particularidade de que seu uso não se dá no agrupamento de blocos, mas sim de linhas, e também não devem ser utilizados caso haja outros elementos semânticos mais apropriados para a finalidade.
+                    </li>
+                    <br />
+                    <li>
+                        <b class="uc">
+                            Elabore um fomulário com o uso do elemento 'label' que seja 'clicável' para o controle de elemento de entrada do tipo 'radio button', isto é, ao clicar no 'label' o 'radio button' também é selecionado.
+                        </b> <br />
+                        <small>Resposta:</small> <br />
+                        <!--Inserir alguma brincadeira a respeito da própria página html-->
+                        <h3>
+                            Se você consegue ver este formulário e marcar uma das opções clicando apenas no texto, então a resposta está exatamente aqui!
+                        </h3>
+                        <form class="utl">
+                            <p>
+                                <input type="radio" name="test" id="joke-1">
+                                <label for="joke-1"><b><ins>FUNCIONOU!!!! o/</ins></b></label>
+                            </p>
+                            <p>
+                                <input type="radio" name="test" id="joke-2">
+                                <label for="joke-2"> <b>Que formulário? o.O</b></label>
+                            </p>
+                        </form>
+                    </li>
+                    <br />
+                    <li>
+                        <b class="uc">
+                            Por que não se aconselha o uso indiscriminado de elementos 'div'? Explique quais seriam as alternativas para reduzir o uso destes elementos.
+                        </b> <br />
+                        <small>Resposta:</small> <br /> 
+                        Os elementos 'div' são apenas containers genéricos, ou seja, não possuem um significado especial. Por este motivo, deve-se evitar seu uso quando há outro elemento semântico mais adequado. Utilizar apenas &ltdiv&gt em uma página HTML dificulta a leitura e interpretação do código, justamente por não serem elementos com significado semântico. <br />Algumas alternativas para o &ltdiv&gt: <br />
+                        <ul>
+                            <li>
+                                <b>&ltmain&gt</b>  <br />
+                                Utilizado para marcar o conteúdo principal da página. <br />                        
+                            </li>
+                            <li>
+                                <b>&ltsection&gt</b> <br />
+                                Serve para agrupar conteúdos por tema, são seções da página, e podem conter seus próprios cabeçalhos e rodapés. <br />  
+                            </li>
+                            <li>
+                                <b>&ltaside&gt</b> <br />
+                                Geralmente utilizados para conter sidebars, conteúdos de canto da página. <br />
+                            </li>
+                            <li>
+                                <b>&ltarticle&gt</b> <br />
+                                É utilizado para partes de um conteúdo, como posts artigos e comentários. <br />
+                            </li>
+                            <li>
+                                <b>&ltblockquote&gt</b> <br />
+                                Para conteúdos de fontes externas. <br />
+                            </li>
+                            <li>
+                                <b>&ltnav&gt</b> <br />
+                                Para conter links de navegação da página, menus. <br />
+                            </li>
+                            <li>
+                                <b>&ltheader&gt</b> <br />
+                                Cabeçalho da página. <br />
+                            </li>
+                            <li>
+                                <b>&ltfooter&gt</b> <br />
+                                Rodapé. <br />
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </article>
+                <h3>
+                    Este conteúdo lhe foi útil de alguma forma?
+                </h3>  
+                <form class="utl">
+                    <p>
+                        <input type="radio" name="utility" id="opt-1">
+                        <label for="opt-1">Sim, obrigado!</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="utility" id="opt-2">
+                        <label for="opt-2">Não, estude mais!</label>
+                    </p>
+                </form>
+        </section>
+        <footer>
+            <img src="favicon-96x96.ico" alt="alpha-edtech-logo" id="logo">
+            Marcos Peter Souza Lobato Junior - Alpha Edtech - Turma Lovelace
+        </footer>
+    </body>
+</html>
