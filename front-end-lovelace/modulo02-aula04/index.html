@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <style>
+        * {
+            background-color: rgb(170, 170, 170);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        section {
+            padding-top: 3rem;
+            padding-left: 20%;
+            text-align: justify;
+            max-width: 60%;
+        }
+        header {
+            text-align: center;
+            border-bottom: 1px solid #000;
+        }
+        .uc {
+            text-transform: uppercase;
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Avaliação</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                AVALIAÇÃO DA 4° AULA - MÓDULO 2 - TRILHA FRONT END
+            </h1>
+        </header>
+        <section>
+            <ol>
+                <li>
+                    <b class="uc">Qual a última versão do HTML?</b> <br />
+                    Resposta: <br />
+                    Versão 5 (HTML5) lançada no ano de 2014
+                </li>
+                <br />
+                <li>
+                    <b class="uc">O que é uma ‘tag’ em HTML? Dê exemplo.</b> <br />
+                    Resposta: <br />
+                    Tags são estruturas do HTML (linguagem de marcação) que fornecem informações para que o navegador possa renderizar o conteúdo da página a ser carregada. Ou seja, cada tag em HTML serve para informar ao navegador onde se inicia e termina cada tipo de conteúdo da página, a fim de organizar tal conteúdo e facilitar a renderização do mesmo pelo navegador. <br />
+                    Exemplo: &ltbody&gt&lt/body&gt <br />
+                    As tags em HTML normalmente possuem uma tag de abertura, e uma de fechamento, contendo seu conteúdo entre elas. Isso mostra ao navegador aonde se inicia e termina aquele tipo de conteúdo.
+                </li>
+                <br />
+                <li>
+                    <b class="uc">O que é um ‘atributo’ em HTML? Dê exemplo.</b> <br />
+                    Resposta: <br />
+                    Atributos são comandos adicionais inseridos nas tags de abertura. Eles têm a função de passar um comando ou uma informação específica a ser renderizada pelo navegador. <br />
+                    Exemplo: &ltarticle id="artigo"&gt&lt/article&gt <br />
+                    Neste exemplo, a tag &ltarticle&gt carrega o atributo "id" que serve para identificar de forma única este elemento. Isso permite acesso direto a este elemento específico pelo uso de seu "id".
+                </li>
+                <br />
+                <li> 
+                    <b class="uc">O HTML é sensível ao caso?</b> <br />
+                    Resposta: <br />
+                    Não. HTML é uma linguagem de marcação insensível ao caso. O que existem são boas práticas na utilização do HTML, mas não regras da linguagem quanto a isso.
+                </li>
+                <br />
+                <li>
+                    <b class="uc">O que é o ‘DOM’ e qual a sua importância?</b> <br />
+                    Resposta: <br />
+                    Document Object Model é uma interface da página HTML que permite a linguagens de programação alterar o conteúdo, formatação e o estilo da página HTML. É uma representação orientada a objetos da página HTML, uma árvore de elementos. A manipulação do DOM permite inúmeras possibilidades de customização quando se associa a página HTML com uma linguagem de script, como o Javascript por exemplo. Com a manipulação do DOM é possível inserir, deletar, editar, mudar a formatação e o estilo da página, sem que ao menos seja necessário atualizá-la.
+                </li>
+                <br />
+                <li>
+                    <b class="uc">O que é uma ‘URL’? Dê exemplo.</b> <br />
+                    Resposta: <br />
+                    Uniform Resource Locator é o endereço web, utilizado para se acessar um site. É uma estrutura padronizada para a escrita de endereços web. Exemplo: https://www.google.com Separando a URL de exemplo em suas partes temos: - "https" é o esquema, ele informa o tipo de protocolo utilizado. - Caminho: (www) = hostname; domínio do site (google); domínio de alto nível (.com)
+                </li>
+                <br />
+                <li>
+                    <b class="uc">Qual a importância do atributo ‘charset’?</b> <br />
+                    Resposta: <br />
+                    Ele informa ao navegador a forma que os caracteres do documento devem ser codificados. Cada idioma possui diferentes caracteres, e para cada um destes caracteres existe uma representação em código. O atributo charset informa ao navegador o tipo de interpretação a ser utilizada na página web.
+                </li>
+                <br />
+                <li>
+                    <b class="uc">O que é o ‘UTF-8’? Qual a sua importância?</b> <br />
+                    Resposta: <br />
+                    É um tipo de codificação de caracteres, a mais utilizada na web. Ela é capaz de representar qualquer tipo de caractere utilizando de 1 a 4 bytes.
+                </li>
+                <br />
+                <li>
+                    <b class="uc">Qual a importância da programação HTML considerando-se a semântica nos arquivos criados? Dê 4 exemplos de elementos HTML que servem para definição de semântica.</b> <br />
+                    Resposta: <br />
+                    A chegada do HTML5 possibilitou a construção de códigos mais limpos e mais simples de serem interpretados. A semântica do HTML5 facilita a interpretação do código pela máquina, por mecanismos de busca (o que facilita o rankeamento de sites, quando utilizado de forma correta). Um código HTML com uma boa semântica facilita também a interpretação de leitores de tela para deficientes visuais, trazendo mais acessibilidade a web. <br />
+                    Exemplos: <br />
+                    &ltheader&gt <br /> 
+                    &ltnav&gt <br /> 
+                    &ltsection&gt <br />
+                    &ltsummary&gt
+                </li>
+                <br />
+                <li>
+                    <b class="uc">Para que serve o atributo ‘lang’ colocado no elemento ‘html’? Altera o comportamento da página ao abri-la? Explique.</b> <br />
+                    Resposta: <br />
+                    O atributo "lang" serve para informar o idioma do conteúdo daquele documento. Uma mesma página pode conter diversos atributos "lang" diferentes, um para cada idioma da página. Este atributo não afeta em nada o visual ou o comportamento da página, mas é muito importante quando falamos de motores de busca, tradução, ou leitura de tela porque informa ao navegador o idioma e até a pronúncia a ser utilizada ao se reproduzir o texto. Em suma, declarar o atributo "lang" em um código HTML de forma correta facilita que pessoas falantes daquele idioma encontrem o site buscado, facilita a tradução do conteúdo e também a compreensão de leitores de tela.
+                </li>
+            </ol>
+        </section>
+    </body>
+</html>
