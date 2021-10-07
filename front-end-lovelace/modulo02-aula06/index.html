@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <style>
+        * {
+            background-color: rgb(129, 159, 160);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        h1 {
+            border-bottom: 1px solid #000;
+            padding-bottom: 2rem;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        #logo {
+            max-width: 40px;
+            padding-right: 60%;
+        }
+        footer {
+            border-top: 1px solid #000;
+            text-align: right;
+            padding-top: .8rem;
+        }
+        .uc {
+            text-transform: uppercase;
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Atividades da Aula 06 - Módulo 02 (Trilha Front End)
+            </h1>
+        </header>
+        <section>
+            <article>
+                <ol>
+                    <li>
+                        <b class="uc">
+                            Demonstre o uso dos seguintes elementos de entrada:
+                        </b>
+                        <ul>
+                            <li>
+                                <b><ins>text:</ins></b>
+                            </li>
+                            <li>
+                                <b><ins>password:</ins></b>
+                            </li>
+                            <li>
+                                <b><ins>date:</ins></b>
+                            </li>
+                            <li>
+                                <b><ins>radio:</ins></b>
+                            </li>
+                            <li>
+                                <b><ins>checkbox:</ins></b>
+                            </li>
+                            <li>
+                                <b><ins>range:</ins></b>
+                            </li>
+                            <li>
+                                <b><ins>reset:</ins></b>
+                            </li>
+                            <li>
+                                <b><ins>submit:</ins></b>                         
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b class="uc">
+                            Qual a finalidade do elemento de entrada do tipo 'hidden'? Explique. <br />
+                        </b>
+                        <small>Resposta:</small> <br />
+                    </li>
+                    <li>
+                        <b class="uc">
+                            Crie um formulário bem apresentável que contenha o uso de todos os conhecimentos aprendidos nesta parte 02 do módulo de HTML, utilizando o elemento 'fieldset', 'label' e diversas entradas de dados de formulário. <br />
+                        </b>
+                        <small>Resposta:</small> <br />
+                    </li>
+                </ol>
+            </article>
+        </section>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Formulário de Inscrição</legend>
+                    <p>
+                        <label for="name">Nome completo: </label>
+                        <input type="text" name="application" id="name">
+                    </p>
+                    <p>
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="application" id="email">
+                    </p>
+                    <p>
+                        <label for="password">Senha: </label>
+                        <input type="password" name="application" id="password">
+                    </p>
+                    <p>
+                        <label for="birth">Data de nascimento: </label>
+                        <input type="date" name="application" id="birth">
+                    </p>
+                    <p>
+                        Sexo: 
+                        <input type="radio" name="application" id="sex-1">
+                        <label for="sex-1">Feminino</label>
+                        <input type="radio" name="application" id="sex-2">
+                        <label for="sex-2">Masculino</label>
+                    </p>
+                    <p>
+                        Aceita receber novidades?
+                        <label for="news">Sim</label>
+                        <input type="checkbox" name="application" id="news">
+                    </p>
+                    <input type="hidden" name="application">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </fieldset>
+            </form>
+        </section>
+        <br />
+        <footer>
+            <img src="favicon-96x96.ico" alt="alpha-edtech-logo" id="logo">
+            Marcos Peter Souza Lobato Junior - Alpha Edtech - Turma Lovelace
+        </footer>
+    </body>
+</html>
