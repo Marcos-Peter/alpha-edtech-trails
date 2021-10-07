@@ -46,27 +46,35 @@
                         <ul>
                             <li>
                                 <b><ins>text:</ins></b>
+                                Usado para entradas de texto em uma única linha, sem quebra de texto.
                             </li>
                             <li>
                                 <b><ins>password:</ins></b>
+                                Entrada de texto, também em uma linha, mas destinado para senhas. Tem os caracteres obscurecidos.
                             </li>
                             <li>
                                 <b><ins>date:</ins></b>
+                                Entrada para data sem horário (ano, mês e dia).
                             </li>
                             <li>
                                 <b><ins>radio:</ins></b>
+                                Botão de escolha que uma vez marcado não pode ser desmarcado, apenas no caso de haver mais escolhas, então a marcação "checked" pula de opção em opção quando clicadas.
                             </li>
                             <li>
                                 <b><ins>checkbox:</ins></b>
+                                Caixa de marcação, pode ou não ser marcada e possui a opção de múltiplas escolhas.
                             </li>
                             <li>
                                 <b><ins>range:</ins></b>
+                                Inserção de valores aproximados, dentro de uma faixa.
                             </li>
                             <li>
                                 <b><ins>reset:</ins></b>
+                                Botão que reinicia o formulário para seus valores iniciais.
                             </li>
                             <li>
-                                <b><ins>submit:</ins></b>                         
+                                <b><ins>submit:</ins></b>
+                                Botão para enviar o formulário.                      
                             </li>
                         </ul>
                     </li>
@@ -75,6 +83,7 @@
                             Qual a finalidade do elemento de entrada do tipo 'hidden'? Explique. <br />
                         </b>
                         <small>Resposta:</small> <br />
+                        É utilizado para 'esconder' elementos de uma página, para armazenar dados que não são necessários ao usuário.
                     </li>
                     <li>
                         <b class="uc">
@@ -117,7 +126,10 @@
                         <label for="news">Sim</label>
                         <input type="checkbox" name="application" id="news">
                     </p>
-                    <input type="hidden" name="application">
+                    <p>
+                        Qual seu nível de satisfação com este conteúdo? 
+                        <input type="range" name="application" id="satisfaction">
+                    </p>
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
                 </fieldset>
