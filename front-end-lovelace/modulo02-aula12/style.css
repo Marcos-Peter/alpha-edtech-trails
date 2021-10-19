@@ -1,0 +1,23 @@
+.external {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 200px;
+    background: rgb(150, 120, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+}
+h2 {
+    padding-top: 1rem;
+    text-align: center;
+}
+main {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            background-color: rgb(202, 247, 232);
+        }
+        .internal {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 100%;
+            height: 200px;
+            background: rgb(133, 167, 120);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            text-align: center;
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Módulo CSS</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center; max-height: 8rem;">
+                Atividades da Aula 12 - Módulo 02 - Questão 02<br />(Trilha Front End)
+            </h1>
+            <hr />
+        </header>
+        <main>
+            <article>
+                <h2>
+                    Inline CSS
+                </h2>
+                <p style="
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 100%;
+                height: 200px;
+                background: rgb(120, 129, 167);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 15px;
+                text-align: center;">
+                    Este é um elemento estilizado com CSS inline.
+                </p>
+                <h2>
+                    Internal CSS
+                </h2>
+                <p class="internal">
+                    Este é um elemento estilizado com CSS interno.
+                </p>
+                <h2>
+                    External CSS
+                </h2>
+                <p class="external">
+                    Este é um elemento estilizado com CSS externo.
+                </p>
+            </article>
+        </main>
+        <footer style="text-align: right; position: absolute; bottom: 0; width: 100%;">
+            <hr />
+            <img src="favicon-96x96.ico" alt="alpha-edtech-logo" style="max-width: 40px; padding-right: 1rem;">
+            Marcos Peter Souza Lobato Junior - Alpha Edtech - Turma Lovelace
+        </footer>
+    </body>
+</html>
