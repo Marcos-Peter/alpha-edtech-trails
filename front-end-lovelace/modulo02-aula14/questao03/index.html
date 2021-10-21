@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Boxes - Overflow</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center; max-height: 8rem;">
+                Atividades da Aula 14 - Módulo 02 - Questão 03<br />(Trilha Front End)
+            </h1>
+            <br /><hr />
+        </header>
+        <main>
+            <h2 id="title">
+                <ins>
+                    Exemplos dos tipos de Overflow ('visible', 'hidden', 'scroll', 'auto'):
+                </ins>
+            </h2><br />
+            <article id="container">
+                <div id="visible" class="card">
+                    <strong>
+                        O conteúdo não é cortado, deste moto pode ser exibido fora da caixa de preenchimento.
+                    </strong>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quae nemo reiciendis enim expedita incidunt adipisci! Nesciunt officiis dignissimos dolorem reiciendis quo delectus ab, animi, quidem libero ex veritatis similique!
+                    </p>
+                </div>
+                <div id="hidden" class="card">
+                    <strong>
+                        O conteúdo é cortado para se adequar a caixa, e não é fornecido nenhum tipo de barra de rolagem ao usuário.
+                    </strong>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium reiciendis amet impedit pariatur obcaecati consequatur incidunt optio saepe alias quia, voluptatem, excepturi aperiam exercitationem iusto quam provident quaerat est quas. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit exercitationem minus nemo natus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit exercitationem minus nemo natus. 
+                    </p>
+                </div>
+                <div id="scroll" class="card">
+                    <strong>
+                        O conteúdo é cortado se necessário para se adequar a caixa, e independente do conteúdo ser ou não cortado, a barra de rolagem sempre será exibida.
+                    </strong>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit exercitationem minus nemo natus. 
+                    </p>
+                </div>
+                <div id="auto" class="card">
+                    <strong>
+                        Segue basicamente o mesmo comportamento do 'scroll', mas caso não seja necessário o corte de conteúdo não é exibida uma barra de rolagem.
+                    </strong>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vel expedita eius voluptas quisquam laborum praesentium nostrum hic modi nesciunt dolore eaque, temporibus totam! Aliquid quisquam corrupti dolorum dignissimos voluptatum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit exercitationem minus nemo natus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit exercitationem minus nemo natus. 
+                    </p>
+                </div>
+            </article>
+        </main>
+        <footer style="text-align: right; position: absolute; bottom: 0; width: 100%;">
+            <hr id="footer" />
+            <img src="favicon-96x96.ico" alt="alpha-edtech-logo" style="max-width: 40px; padding-right: 1rem;">
+            Marcos Peter Souza Lobato Junior - Alpha Edtech - Turma Lovelace
+        </footer>
+    </body>
+</html>
