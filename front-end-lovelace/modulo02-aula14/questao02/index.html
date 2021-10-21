@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Block e Inline</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center; max-height: 8rem;">
+                Atividades da Aula 14 - Módulo 02 - Questão 02<br />(Trilha Front End)
+            </h1>
+            <br /><hr />
+        </header>
+        <main>
+            <article id="question">
+                <h3>
+                    Qual a diferença de caixas do tipo "block" e "inline"? <br />
+                    <small>Resposta:</small>                       
+                </h3>
+            </article> <br />
+            <article id="answers">
+                <div class="card">
+                    <h3>
+                        As caixas do tipo 'block' tem alguns comportamentos específicos que diferem das caixas do tipo 'inline':
+                    </h3>
+                    <br />
+                    <div>
+                        <h4>Block:</h4>
+                        <span class="block">
+                            <strong>-></strong>
+                            As caixas irão quebrar para uma nova linha.
+                        </span>
+                        <span class="block">
+                            <strong>-></strong>
+                            As caixas se estendem na direção da linha para preencher o espaço disponível do conteiner ou seja, a caixa pode ficar do tamanho do conteiner ocupando todo os espaço disponível.
+                        </span>
+                        <span class="block">
+                            <strong>-></strong>
+                            As propriedades de altura (height) e largura (width) são respeitadas.
+                        </span>
+                        <span class="block">
+                            <strong>-></strong>
+                            As propriedade 'padding', 'margin' e 'border' podem empurrar outros elementos para longe da caixa.
+                        </span>
+                    </div>
+                    <br />
+                    <div>
+                        <h4>Inline:</h4>
+                        <span class="inline">
+                            <strong>-></strong>
+                            As caixas não quebram para uma nova linha.
+                        </span>
+                        <span class="inline">
+                            <strong>-></strong>
+                            As propriedades de altura (height) e largura (width) não são aplicadas.
+                        </span>
+                        <span class="inline">
+                            <strong>-></strong>
+                            As propriedades 'padding', 'margins' e 'borders' verticais são aplicadas mas não farão com que outras caixas na mesma linha se afastem.
+                        </span>
+                        <span class="inline">
+                            <strong>-></strong>
+                            As propriedades 'padding', 'margin' e 'border' horizontais serão aplicadas e fazem com que outras caixas na mesma linha se afastem.
+                        </span>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <hr />
+            <img src="favicon-96x96.ico" alt="alpha-edtech-logo" style="max-width: 40px; padding-right: 1rem;">
+            Marcos Peter Souza Lobato Junior - Alpha Edtech - Turma Lovelace
+        </footer>
+    </body>
+</html>
