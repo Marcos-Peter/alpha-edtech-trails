@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(190, 241, 245);
+}
+
+header {
+    background-color: rgb(68, 155, 65);
+}
+
+footer {
+    background-color: rgb(68, 155, 65);
+    text-align: right; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+}
+
+footer hr {
+    margin-bottom: 8px;
+}
+
+hr {
+    background-color: rgb(1, 80, 18);
+    border-color: rgb(1, 80, 18);
+    color: rgb(1, 80, 18);
+}
+
+main {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: #bcfa5a;
+    border-radius: 12px;
+    width: 80%;
+}
+
+#container {
+    background-image: url(alpha-bg.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* padding: 1rem 2rem; */
+    background-color: #cfc5c5;
+    width: 25%;
+    height: 300px;
+    margin: .3rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    padding: 7.5rem 1rem;
+}
+
+.card p {
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 8px;
+}
+
+#solid {
+    background-color: rgb(16, 34, 92);
+}
+
+#solid-t {
+    background-color: rgba(16, 34, 92, 0.637);
+}
+
+#gradient {
+    background-image: linear-gradient(to top, rgb(16, 34, 92), rgb(24, 179, 218));
+}
+
+#unique-img {
+    background-image: url(tyr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#rpt-img {
+    background-image: url(tyr.jpg);
+    background-size: 98px;
+}
