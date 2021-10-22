@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(190, 241, 245);
+}
+
+header {
+    background-color: rgb(68, 155, 65);
+}
+
+footer {
+    background-color: rgb(68, 155, 65);
+    text-align: right; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+}
+
+footer hr {
+    margin-bottom: 8px;
+}
+
+hr {
+    background-color: rgb(1, 80, 18);
+    border-color: rgb(1, 80, 18);
+    color: rgb(1, 80, 18);
+}
+
+main {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: #bcfa5a;
+    border-radius: 12px;
+    width: 80%;
+}
+
+#container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.card p {
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 8px;
+}
+
+#solid {
+    background-color: rgb(16, 34, 92);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 360px;
+    margin: .3rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    padding: 9.5rem 1rem;
+    border-radius: 50%;
+    border: solid 8px #000;
+}
+
+#solid-t {
+    background-color: rgb(16, 90, 92);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 360px;
+    margin: .3rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    padding: 9.5rem 1rem;
+    border-radius: 30%;
+    border: dotted 8px rgb(71, 2, 2);
+}
+
+#gradient {
+    background-color: rgb(39, 16, 92);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 360px;
+    margin: .3rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    padding: 9.5rem 1rem;
+    border-radius: 15px;
+    border: dashed 8px rgb(110, 214, 218);
+}
+
+#unique-img {
+    background-color: rgb(92, 16, 58);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 360px;
+    margin: .3rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    padding: 9rem 1rem;
+    border: 1rem ridge rgb(98, 185, 95);
+}
