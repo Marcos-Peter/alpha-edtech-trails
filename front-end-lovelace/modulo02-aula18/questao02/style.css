@@ -1,0 +1,113 @@
+html, body {
+
+    background-image: url(wallpaperbetter.com_1440x900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#container {
+    border-radius: 60px;
+    margin-top: 2rem;
+}
+
+header {
+    background-image: linear-gradient(to right, #07071bfb, #3638a8ce);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+}
+
+.content {
+    background-image: linear-gradient(to right, #cae3ebb4, #244d80b4);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas:
+                        "card1 card2 card3 card4"
+                        "card5 card6 card7 card8";
+    grid-gap: 1rem;
+}
+
+#head {
+    grid-area: head;
+    background-color: #ffffffe0;
+    padding: 1rem;
+    height: 5rem;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #ffffffe0;
+    padding: 1rem;
+    height: 18rem;
+    border-radius: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card p {
+    font-size: 1.5em;
+    color: #000;
+    font-weight: 900;
+    padding-top: 15%;
+}
+
+#hex {
+    grid-area: card1;
+    background-color: #114b5f;
+}
+
+#hexa {
+    grid-area: card2;
+    background-color: #2b5a78c5;
+}
+
+#rgb {
+    grid-area: card3;
+    background-color: rgb(69, 105, 144);
+}
+
+#rgba {
+    grid-area: card4;
+    background-color: rgba(149, 179, 185, 0.651);
+}
+
+#hsl {
+    grid-area: card5;
+    background-color: hsl(114, 88%, 94%);
+}
+
+#hsla {
+    grid-area: card6;
+    background-color: hsla(355, 87%, 66%, 0.5);
+}
+
+#browser-def {
+    grid-area: card7;
+    background-color: crimson;
+}
+
+#current-color {
+    color:firebrick;
+    grid-area: card8;
+    background-color: currentColor;
+}
