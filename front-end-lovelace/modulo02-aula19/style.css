@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+}
+
+body {
+    background-image: url(alpha-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 10vh 90vh ;
+    grid-template-areas:
+        "header header"
+        "main aside";
+    grid-gap: 5px;
+}
+
+header {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    grid-area: header;
+    background-color: #449696;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    grid-area: main;
+    background-color: #f5f5f53d;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #f5f5f53d;
+}
+
+#main-container {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+#side-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    margin: 10px;
+    width: 20%;
+    height: 250px;
+}
+
+.side-box {
+    color: rgb(18, 19, 88);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding-top: 10px;
+    width: 43%;
+    height: fit-content;
+    padding: 5rem 0 5rem 0;
+    font-size: 5rem;
+    font-weight: 900;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div img {
+    border: dotted 4px rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+}
+
+#left {
+    background-color: #6f9b9b;
+}
+
+#right {
+    background-color: #435e5e;
+    align-self: flex-end;
+}
+
+#html {
+    background-color: rgb(228, 78, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#css {
+    background-color: rgb(38, 111, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#js {
+    background-color: rgb(238, 109, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#react {
+    background-color: rgb(140, 206, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bootstrap {
+    background-color: rgb(71, 30, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#git {
+    background-color: rgb(231, 93, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#postgres {
+    background-color: rgb(36, 61, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#figma {
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photopea {
+    background-color: rgb(16, 130, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#meme {
+    background-color: rgb(73, 47, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
