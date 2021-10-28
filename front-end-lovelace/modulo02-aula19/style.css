@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url(alpha-bg.jpg);
+    background-image: url(imgs/alpha-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
