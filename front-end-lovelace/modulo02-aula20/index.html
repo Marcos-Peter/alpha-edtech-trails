@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Flex Box - Parte 2 (WRAP)</title>
+    </head>
+    <body>
+        <!-- 
+            Criar uma página que demonstre o uso diverso do “wrap” em elementos do tipo “Flexible box”. 
+            Note que o intuito do exercício é demonstrar que sabe utilizar as diversas formas de organizar os   itens a serem exibidos dentro de um container “flex”. 
+            Então, utilize a imaginação para a construção de sua página web! 
+        -->
+        <header>
+            <h1>Led Zeppelin - A discografia de uma lenda</h1>
+        </header>
+        <main>
+            <p class="title">
+                ÁLBUNS DE ESTÚDIO
+            </p>
+            <section id="albums">
+                <div class="box">
+                    <img src="image/LZI.jpg" alt="Album Led Zeppelin I">
+                    <div class="box-desc">
+                        <p>
+                            <strong>LED ZEPPELIN I</strong>
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>12 de janeiro de 1969</li>
+                                <li><b>Gravação: </b>outubro de 1968, Olympic Studios (Londres)</li>
+                                <li><b>Gravadora: </b>Atlantic Records</li>
+                                <li><b>Produção: </b>Jimmy Page</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/LZII.jpg" alt="Album Led Zeppelin II">
+                    <div class="box-desc">
+                        <p>
+                            <strong>LED ZEPPELIN II</strong>
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>22 de outubro de 1969</li>
+                                <li><b>Gravação: </b>janeiro a agosto de 1969, Olympic Studios, Morgan Studios (Londres); A&M, Quantum, Sunset, Mirror Sound, Mystic Studios (Los Angeles); Ardent Studios (Memphis); A&R Studios, Juggy Sound Studio, Groove, Atlantic Studios, Mayfair Studios (New York); ‘Caverna’ (Vancouver). Mixado na A&R Studios.</li>
+                                <li><b>Gravadora: </b>Atlantic Records</li>
+                                <li><b>Produção: </b>Jimmy Page</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/LZIII.jpg" alt="Album Led Zeppelin III">
+                    <div class="box-desc">
+                        <p>
+                            <strong>LED ZEPPELIN III</strong>
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>05 de outubro de 1970</li>
+                                <li><b>Gravação: </b>janeiro a agosto de 1970, Ardent Studios (Memphis); Headley Grange (Hampshire); Electric Lady Studios (New York); Island Studios,  Olympic Studios (Londres). Mixado na Island Studios e Electric Lady Studios.</li>
+                                <li><b>Gravadora: </b>Atlantic Records</li>
+                                <li><b>Produção: </b>Jimmy Page</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/LZIV.png" alt="Album Led Zeppelin IV">
+                    <div class="box-desc">
+                        <p>
+                            <strong>LED ZEPPELIN IV</strong>
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>08 de novembro de 1971</li>
+                                <li><b>Gravação: </b>dezembro de 1970, Headley Grange (Hampshire); Sarm West Studios, Island Studios (Londres); Sunset Sound (Los Angeles). Mixado no Sunset Sound.</li>
+                                <li><b>Gravadora: </b>Atlantic Records</li>
+                                <li><b>Produção: </b>Jimmy Page</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/LZHouses.jpg" alt="Album Led Zeppelin Houses of the Holy">
+                    <div class="box-desc">
+                        <p>
+                            <strong>HOUSES OF THE HOLY</strong>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>28 de março de 1973</li>
+                                <li><b>Gravação: </b>janeiro a agosto de 1972, Headley Grange (Hampshire); Island Studios, Stargroves (Londres). Mixado no Olympic Studios (Londres); e Electric Lady Studios (New York).</li>
+                                <li><b>Gravadora: </b>Atlantic Records</li>
+                                <li><b>Produção: </b>Jimmy Page</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/LZPhysical.jpg" alt="Album Led Zeppelin Physical Graffiti">
+                    <div class="box-desc">
+                        <p>
+                            <strong>PHYSICAL GRAFFITI</strong>
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>28 de setembro de 1975</li>
+                                <li><b>Gravação: </b>julho de 1970 a outubro de 1974, Headley Grange (Hampshire); Ronnie Lane’s Mobile Studio, Stargroves, Olympic Studios, Island Studios (Londres). Mixado no Olympic Studios e Electric Lady Studios (New York).</li>
+                                <li><b>Gravadora: </b>Atlantic Records</li>
+                                <li><b>Produção: </b>Jimmy Page</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/LZPresence.jpg" alt="Album Led Zeppelin Presence">
+                    <div class="box-desc">
+                        <p>
+                            <strong>PRESENCE</strong>
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>31 de março de 1976</li>
+                                <li><b>Gravação: </b>novembro a dezembro de 1975, Musicland Studios (Munich)</li>
+                                <li><b>Gravadora: </b>Atlantic Records</li>
+                                <li><b>Produção: </b>Jimmy Page</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/LZSong.jpg" alt="Album Led Zeppelin The Song Remains the Same">
+                    <div class="box-desc">
+                        <p>
+                            <strong>THE SONG REMAINS THE SAME</strong>
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>28 de setembro de 1976</li>
+                                <li><b>Gravação: </b>27 a 28 de julho de 1973, Madison Square Garden, Nova Iorque</li>
+                                <li><b>Gravadora: </b>Swan Song Records</li>
+                                <li><b>Produção: </b>Jimmy Page</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/LZOut-Door.jpg" alt="Album Led Zeppelin In Through the Out Door">
+                    <div class="box-desc">
+                        <p>
+                            <strong>IN THROUGH THE OUT DOOR</strong>
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>15 de agosto de 1979</li>
+                                <li><b>Gravação: </b>novembro a dezembro de 1978, Polar Studios (Estocolmo).
+                                    Mixado no Plumpton Studio</li>
+                                <li><b>Gravadora: </b>Swan Song Records</li>
+                                <li><b>Produção: </b>Jimmy Page e Peter Grant</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/LZCoda.jpg" alt="Album Led Zeppelin Coda">
+                    <div class="box-desc">
+                        <p>
+                            <strong>CODA</strong>
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Lançamento: </b>19 de novembro de 1982</li>
+                                <li><b>Gravação: </b>janeiro de 1969 a novembro de 1978.
+                                    Mixado no Sol Studio (Cookham)</li>
+                                <li><b>Gravadora: </b>Swan Song Records</li>
+                                <li><b>Produção: </b>Jimmy Page</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <p class="title">DETALHES POR ÁLBUM</p>
+            <section id="details">
+                <div id="lz" class="det">
+                    <p>Led Zeppelin I</p>
+                    <p class="year">1969</p>
+                    <div>
+                        <p>Lado A:</p>
+                        <ul>
+                            <li>Good Times Bad Times</li>
+                            <li>Babe I'm Gonna Leave You</li>
+                            <li>You Shock Me</li>
+                            <li>Dazed and Confused</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Black Mountain Site</li>
+                            <li>Communication Breakdown</li>
+                            <li>I Can't Quit You Baby</li>
+                            <li>How Many More Times</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="lz-2" class="det">
+                    <p>Led Zeppelin II</p>
+                    <p class="year">1969</p>
+                    <div>
+                        <p>Lado A:</p>
+                        <ul>
+                            <li>Whole Lotta Love</li>
+                            <li>What Is and What Should Never Be</li>
+                            <li>The Lemon Song</li>
+                            <li>Thank You</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Heartbreaker</li>
+                            <li>Livin' Lovin' Maid</li>
+                            <li>Ramble On</li>
+                            <li>Moby Dick</li>
+                            <li>Bring It on Home</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="lz-3" class="det">
+                    <p>Led Zeppelin III</p>
+                    <p class="year">1970</p>
+                    <div>
+                        <p>Lado A:</p>
+                        <ul>
+                            <li>Immigrant Song</li>
+                            <li>Friends</li>
+                            <li>Celebration Day</li>
+                            <li>Since I've Been Loving You</li>
+                            <li>Out on the Tiles</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Gallows Pole</li>
+                            <li>Tangerine</li>
+                            <li>That's the Way</li>
+                            <li>Hats Off to (Roy) Harper</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="lz-4" class="det">
+                    <p>Led Zeppelin IV</p>
+                    <p class="year">1971</p>
+                    <div>
+                        <p>Lado A:</p>
+                        <ul>
+                            <li>Black Dog</li>
+                            <li>Rock adn Roll</li>
+                            <li>The Battle of Evermore</li>
+                            <li>Stairway to Heaven</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Misty Mountain Hop</li>
+                            <li>Four Sticks</li>
+                            <li>Going to California</li>
+                            <li>When the Levee Breaks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="lz-h" class="det">
+                    <p>Houses of the Holy</p>
+                    <p class="year">1973</p>
+                    <div>
+                        <p>Lado A:</p>
+                        <ul>
+                            <li>The Song Remains the Same</li>
+                            <li>The Rain Song</li>
+                            <li>Over the Hills and Far Away</li>
+                            <li>The Crunge</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Dancing Days</li>
+                            <li>D'yer Mak'er</li>
+                            <li>No Quarter</li>
+                            <li>The Ocean</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="lz-pg" class="det">
+                    <p>Physical Graffiti</p>
+                    <p class="year">1975</p>
+                    <div>
+                        <p>Disco 1 - Lado A:</p>
+                        <ul>
+                            <li>Custard Pie</li>
+                            <li>The Rover</li>
+                            <li>In My Time of Dying</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Houses of the Holy</li>
+                            <li>Trampled Under Foot</li>
+                            <li>Kashmir</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Disco 2 - Lado A:</p>
+                        <ul>
+                            <li>In the Light</li>
+                            <li>Bron-Yr-Aur</li>
+                            <li>Down by the Seaside</li>
+                            <li>Ten Years Gone</li>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Night Flight</li>
+                            <li>The Wanton Song</li>
+                            <li>Boogie With Stu</li>
+                            <li>Black Country Woman</li>
+                            <li>Sick Again</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="lz-p" class="det">
+                    <p>Presence</p>
+                    <p class="year">1976</p>
+                    <div>
+                        <p>Lado A:</p>
+                        <ul>
+                            <li>Achilles Last Stand</li>
+                            <li>For Your Life</li>
+                            <li>Royal Orleans</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Nobody's Fault But Mine</li>
+                            <li>Candy Store Rock</li>
+                            <li>Hots On for Nowhere</li>
+                            <li>Tea for One</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="lz-ts" class="det">
+                    <p>The Song Remains the Same</p>
+                    <p class="year">1976</p>
+                    <div>
+                        <p>Disco 1 - Lado A:</p>
+                        <ul>
+                            <li>Rock And Roll</li>
+                            <li>Celebration Day</li>
+                            <li>The Song Remains the Same</li>
+                            <li>Rain Song</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Dazed And Confused</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Disco 2 - Lado A:</p>
+                        <ul>
+                            <li>No Quarter</li>
+                            <li>Stairway To Heaven</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Moby Dick</li>
+                            <li>Whole Lotta Love</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="lz-it" class="det">
+                    <p>In Through the Out Door</p>
+                    <p class="year">1978</p>
+                    <div>
+                        <p>Lado A:</p>
+                        <ul>
+                            <li>Good Times Bad Times</li>
+                            <li>In the Evening</li>
+                            <li>South Bound Saurez</li>
+                            <li>Fool in the Rain</li>
+                            <li>Hot Dog</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Carouselambra</li>
+                            <li>All My Love</li>
+                            <li>I'm Gonna Crawl</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="lz-cd" class="det">
+                    <p>Coda</p>
+                    <p class="year">1982</p>
+                    <div>
+                        <p>Lado A:</p>
+                        <ul>
+                            <li>We're Gonna Groove</li>
+                            <li>Poor Tom</li>
+                            <li>I Can't Quit You Baby</li>
+                            <li>Walter's Walk</li>
+                        </ul>
+                    </p>
+                    </div>
+                    <div>
+                        <p>Lado B:</p>
+                        <ul>
+                            <li>Ozone Baby</li>
+                            <li>Darlene</li>
+                            <li>Bonzo's Montreux</li>
+                            <li>Wearing and</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h6></h6>
+        </footer>
+    </body>
+</html>
