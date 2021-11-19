@@ -23,11 +23,37 @@ main {
 }
 
 #presentation {
+    padding-top: 8vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+h1 {
+    color: hsl(0, 4%, 15%);
+    font-size: 3vh;
+    text-shadow: #666 1px 1px;
+}
+
+h2 {
+    color: hsl(0, 4%, 15%);
+    font-size: 2vh;
+}
+
+.box {
+    background-color: hsla(208, 100%, 97%, 0.363);
+    margin: 1.5vh;
+    font-size: 1.5vh;
+    row-gap: 1vh;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #666 dotted 2px;
+    border-radius: 5px;
+    padding: 1vh;
 }
 
 #hobby {
@@ -38,7 +64,12 @@ main {
     justify-content: center;
 }
 
+#hobby-title {
+    text-decoration: underline;
+}
+
 #hobby-description {
+    font-size: 2vh;
     width: 50vw;
     text-align: justify;
     margin: 2vh;
@@ -53,7 +84,7 @@ main {
 }
 
 #pic {
-    height: 10vh;
+    height: 15vh;
     border-radius: 50%
 }
 

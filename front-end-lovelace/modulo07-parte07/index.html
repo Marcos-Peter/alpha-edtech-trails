@@ -14,13 +14,16 @@
     a. Informações sobre você (Nome, idade, estado, foto);
     b. Informações sobre o seu hobby (Título, descrição, links para consulta, imagens); -->
     <body>
-        <header id="header"></header>
         <main>
             <section id="presentation">
                 <h1 id="name"></h1>
-                <span id="age"></span>
-                <span id="state"></span>
-                <img id="pic" />
+                <div class="box">    
+                    <span id="age"></span>
+                    <span id="state"></span>
+                    <a id="github-link">
+                        <img id="pic" />
+                    </a>
+                </div>
             </section>
             <section id="hobby">
                 <h2 id="hobby-title"></h2>
@@ -39,10 +42,8 @@
                         </a>
                     </div>
                 </article>
-                
             </section>
         </main>
-        <footer id="footer"></footer>
     </body>
     <script src="scripts/script.js"></script>
 </html>

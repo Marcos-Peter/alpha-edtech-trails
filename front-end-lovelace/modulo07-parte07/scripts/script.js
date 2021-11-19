@@ -1,8 +1,11 @@
 document.getElementById('name').innerHTML = "Marcos Peter Souza Lobato Junior";
-document.getElementById('age').innerHTML = "27 years old";
-document.getElementById('state').innerHTML = "Distrito Federal";
+document.getElementById('age').innerHTML = "I'm 27 years old";
+document.getElementById('state').innerHTML = "I was born in Goiás, but I live in the Distrito Federal";
 document.getElementById('pic').src = "assets/marcos-peter.jpg";
 document.getElementById('pic').alt = "Marcos Peter";
+document.getElementById('github-link').href = "https://www.github.com/Marcos-Peter";
+document.getElementById('github-link').target = "_blank";
+
 
 document.getElementById('hobby-title').innerHTML = "Music, books and movies!";
 document.getElementById('hobby-description').innerHTML = "As long as I can remember I love listening to music and watching movies! One of my favorite things to do is spend time alone with my thoughts listening to music or watching a movie. And with time, as I matured, I developed a taste for reading. I'm fascinated by the fantasy and horror genre and like to take time out of my day to read whenever I can! I can say for sure that Led Zeppelin and J. R. R. Tolkien are my biggest hobbies!";
