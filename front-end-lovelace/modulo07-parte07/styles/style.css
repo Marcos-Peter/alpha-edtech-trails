@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsla(44, 39%, 64%, 0.767);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hobby {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hobby-description {
+    width: 50vw;
+    text-align: justify;
+    margin: 2vh;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#pic {
+    height: 10vh;
+    border-radius: 50%
+}
+
+#lz-img {
+    height: 25vh;
+    width: 20vw;
+    border-radius: 1vh;
+}
+
+#tolkien-img {
+    height: 25vh;
+    width: 20vw;
+    border-radius: 1vh;
+}
+
+.card {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: hsla(42, 30%, 82%, 0.767);
+    border-radius: 1vh;
+    margin: 2vh;
+    padding: 2vh;
+}
+
+.card h3{
+    margin-bottom: 1vh;
+}

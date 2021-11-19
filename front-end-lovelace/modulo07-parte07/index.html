@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>Marcos Peter - Main Hobby</title>
+    </head>
+    <!-- Crie uma página html para representar o seu maior hobby. Estruture o seu trabalho como um projeto (arquivos separados para html, css e javascript).
+    No arquivo html, todas as tags devem conter um id único e estarem vazias.
+    No arquivo javascript, utilize o método document.getElementById() para preencher as informações de cada tag.
+    A página deve conter as seguintes informações:
+    a. Informações sobre você (Nome, idade, estado, foto);
+    b. Informações sobre o seu hobby (Título, descrição, links para consulta, imagens); -->
+    <body>
+        <header id="header"></header>
+        <main>
+            <section id="presentation">
+                <h1 id="name"></h1>
+                <span id="age"></span>
+                <span id="state"></span>
+                <img id="pic" />
+            </section>
+            <section id="hobby">
+                <h2 id="hobby-title"></h2>
+                <p id="hobby-description"></p>
+                <article class="row">
+                    <div class="card">    
+                        <h3 id="lz"></h3>
+                        <a id="lz-link">
+                            <img id="lz-img" />
+                        </a>
+                    </div>
+                    <div class="card">
+                        <h3 id="tolkien"></h3>
+                        <a id="tolkien-link">
+                            <img id="tolkien-img" />
+                        </a>
+                    </div>
+                </article>
+                
+            </section>
+        </main>
+        <footer id="footer"></footer>
+    </body>
+    <script src="scripts/script.js"></script>
+</html>
