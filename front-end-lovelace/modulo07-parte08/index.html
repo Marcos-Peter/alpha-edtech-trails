@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+        A página deverá conter as seguintes informações:
+        Informações sobre você(Nome, idade, estado, foto);
+        Informações sobre seu cantor(a) ou grupo musical favorito (Nome, gênero, links para consulta, imagens, lista de suas músicas preferidas); 
+    -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>A melhor banda do mundo</title>
+    </head>
+    <body>
+        <main>
+            <section class="container">
+                <h1 id="name"></h1>
+                <img id="self-pic" alt="A self picture" />
+                <span id="age"></span><br />
+                <span id="state"></span>
+            </section>
+            <section class="container">
+                <article id="about-lz">
+                    <h2>Led Zeppelin</h2>
+                    <strong>Gênero: <span id="genre"></span></strong>
+                    <p></p>
+                    <h2 class="lz-mp">Led Zeppelin e Eu</h2>
+                    <p></p>
+                </article>
+                <article id="lz-images">
+                    <a href="">
+                        <img src="" alt="" class="album">
+                    </a>
+                    <a href="">
+                        <img src="" alt="" class="album">
+                    </a>
+                    <a href="">
+                        <img src="" alt="" class="album">
+                    </a>
+                    <a href="">
+                        <img src="" alt="" class="album">
+                    </a>
+                </article>
+                <article id="favorite-songs">
+                    <h2>Minhas músicas favoritas</h2>
+                    <ul class="fav-song">
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                    </ul>
+                    <div class="row">
+                        <a href="">
+                            <h3>Conheça um pouco mais!</h3>
+                        </a>
+                    </div>
+                </article>
+                <article id="player">
+                    <audio autoplay>
+                        <source src="assets/black-dog-remaster.mp3" type="audio/mp3">
+                    </audio>
+                </article>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
