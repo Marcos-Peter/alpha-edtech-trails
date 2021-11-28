@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="images/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Alpha Burger</title>
+    </head>
+    <!-- 
+        Na atividade de hoje, você é dono de uma hamburgueria (dê o nome que você quiser) e irá construir um cardápio digital. Com o auxílio de um formulário, o usuário poderá montar o próprio lanche, e no final você deverá calcular o valor a ser pago e montar uma ficha a ser entregue para o chapeiro contendo os itens escolhidos.
+        a. Opções de pão: Pão francês (R$3,00), Pão Australiano (R$8,00), Pão de Brioche (R$6,00);
+        b. Opções de hambúrguer: Hambúrguer de picanha (R$13,00), Hambúrguer de costela (R$10,00), Hambúrguer Vegano (R$12,00)
+        c. Opções de salada: Alface (R$1,50), Tomate (R$1,50), sem salada (R$0,00);
+        Opções de Queijo: Mussarela (R$3,00), Prato (R$3,00), Cheddar (R$5,00).
+     -->
+    <body>
+        <main>
+            <h1>MENU</h1>
+            <section id="menu">
+            <form id="lista" onsubmit="return false">
+                <h2>Monte seu Lanche</h2>
+                <h3>Escolha um Pão</h3>
+                <fieldset>
+                    <label>
+                        <input name="pao" type="radio" id="p1" value="3" required />
+                        <div>
+                        <img src="assets/images/french.jpg"/>
+                        <span>Pão Francês</span>
+                        <span class="value">R$ 3,00</span>
+                        </div>
+                    </label>
+                    <label>
+                        <input name="pao" type="radio" id="p2" value="8" />
+                        <div>
+                        <img src="assets/images/australian.jpg" />
+                        <span>Pão Australiano</span>
+                        <span class="value">R$ 8,00</span>
+                        </div>
+                    </label>
+                    <label>
+                        <input name="pao" type="radio" id="p3" value="6" />
+                        <div>
+                        <img src="assets/images/brioche.jpg" />
+                        <span>Pão Brioche</span>
+                        <span class="value">R$ 6,00</span>
+                        </div>
+                    </label>
+                </fieldset>
+                <h3>Escolha um Hambúrguer</h3>
+                <fieldset>
+                    <label>
+                        <input name="carne" type="radio" id="c1" value="13" required />
+                        <div>
+                        <img src="assets/images/meat.jpg" />
+                        <span>Picanha</span>
+                        <span class="value">R$ 13,00</span>
+                        </div>
+                    </label>
+                    <label>
+                        <input name="carne" type="radio" id="c2" value="10" />
+                        <div>
+                        <img src="assets/images/ribs.jpg" />
+                        <span>Costela</span>
+                        <span class="value">R$ 10,00</span>
+                        </div>
+                    </label>
+                    <label>
+                        <input name="carne" type="radio" id="c3" value="12" />
+                        <div>
+                        <img src="assets/images/vegan.jpg" />
+                        <span>Vegano </span>
+                        <span class="value">R$ 12,00</span>
+                        </div>
+                    </label>
+                </fieldset>
+                <h3>Escolha a Salada</h3>
+                <fieldset>
+                    <label>
+                        <input name="salada" type="radio" id="s1" value="1.5" required />
+                        <div>
+                        <img src="assets/images/lettuce.jpg" />
+                        <span>Alface</span>
+                        <span class="value">R$ 1,50</span>
+                        </div>
+                    </label>
+                    <label>
+                        <input name="salada" type="radio" id="s2" value="1.5" />
+                        <div>
+                        <img src="assets/images/tomato.jpg" />
+                        <span>Tomate</span>
+                        <span class="value">R$ 1,50</span>
+                        </div>
+                    </label>
+                    <label>
+                        <input name="salada" type="radio" id="s3" value="0" />
+                        <div>
+                        <img src="assets/images/no-salad.jpg" />
+                        <span>Sem Salada</span>
+                        <span class="value">R$ 0,00</span>
+                        </div>
+                    </label>
+                </fieldset>
+                <h3>Escolha um Queijo</h3>
+                <fieldset>
+                    <label>
+                        <input name="queijo" type="radio" id="q1" value="3" required />
+                        <div>
+                        <img src="assets/images/mozzarela.jpg" />
+                        <span>Mussarela</span>
+                        <span class="value">R$ 3,00</span>
+                        </div>
+                    </label>
+                    <label>
+                        <input name="queijo" type="radio" id="q2" value="3" />
+                        <div>
+                        <img src="assets/images/dish-cheese.jpg" />
+                        <span>Prato</span>
+                        <span class="value">R$ 3,00</span>
+                        </div>
+                    </label>
+                    <label>
+                        <input name="queijo" type="radio" id="q3" value="5" />
+                        <div>
+                        <img src="assets/images/cheddar.jpg" />
+                        <span>Cheddar</span>
+                        <span class="value">R$ 5,00</span>
+                        </div>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <button type="submit" onclick="send()">Enviar Pedido</button> 
+                </fieldset>
+            </form>
+            </section>
+            <section id="result" hidden>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="request" colspan="3">
+                            Pedido
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pão:</td>
+                            <td><p id="pao"></p></td>
+                            <td><p id="paoV"></p></td>
+                        </tr>
+                        <tr>
+                            <td>Hambúrguer:</td>
+                            <td><p id="carne"></p></td>
+                            <td><p id="carneV"></p></td>
+                        </tr>
+                        <tr>
+                            <td>Salada:</td>
+                            <td><p id="salada"></p></td>
+                            <td><p id="saladaV"></p></td>
+                        </tr>
+                        <tr>
+                            <td>Queijo</td>
+                            <td><p id="queijo"></p></td>
+                            <td><p id="queijoV"></p></td>
+                        </tr>
+                        <tr>
+                            <td>
+                            Total do Pedido:
+                            </td>
+                            <td colspan="2"><h2 id="total"></h2></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
