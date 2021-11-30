@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Quadro negro do Bart Simpson</title>
+    </head>
+    <body>
+        <main>
+            <header class="header">
+                <h1 id="logo">Simpsons</h1>
+            </header>
+            <section class="container">
+                <article id="chalkboard">
+                </article>
+                <img id="bart" src="assets/images/bart-simpson.png" alt="">
+            </section>
+            <section class="input">
+                <h2>Vamos ajudar o Bart!</h2>
+                <form>
+                    <h3>Qual foi o tamanho do castigo?<span>(Quantas repetições?)</span></h3>
+                    <label for="phrase-qtt">
+                        <input type="number" name="phrase-qtt" id="phrase-qtt">
+                    </label>
+                    <button id="btn-1" type="button">ajudar</button>
+                </form>
+            </section>
+            <section id="result" class="hide">
+                <h2>Resultado</h2>
+                <h3>Quantas vezes o quadro foi apagado:</h3>
+                <span id="board-cleared"></span>
+                <h3>Tamanho do castigo:</h3>
+                <span id="phrase-repeat"></span>
+                <h3>Frases no último quadro:</h3>
+                <span id="last-board"></span>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
