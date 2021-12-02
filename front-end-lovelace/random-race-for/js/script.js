@@ -19,7 +19,6 @@ const runMode = [
 document.getElementById('btn-players').addEventListener('click', () => {changePlayers()});
 document.getElementById('btn-back').addEventListener('click', () => {changePlayers()});
 document.getElementById('btn-play').addEventListener('click', () => {changeRun()});
-document.getElementById('btn-back').addEventListener('click', () => {changeRun()});
 document.getElementById('speed-run').addEventListener('click', () => {modeSelected('speed-run')});
 document.getElementById('grand-prix').addEventListener('click', () => {modeSelected('grand-prix')});
 document.getElementById('enduro').addEventListener('click', () => {modeSelected('enduro')});
