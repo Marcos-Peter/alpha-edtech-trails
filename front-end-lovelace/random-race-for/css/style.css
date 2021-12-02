@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 }
 
 html {
+    font-family: 'Poppins', sans-serif;
     background-image: url(../assets/images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -69,14 +72,6 @@ h1 {
     transition: 0.3s;
 }
 
-.show {
-    display: flex;
-}
-
-.hide {
-    display: none;
-}
-
 .pilots {
     display: flex;
     column-gap: 1vh;
@@ -86,6 +81,7 @@ h1 {
     background-color: antiquewhite;
     width: 12vw;
     height: 20vh;
+    padding: 1vh;
     border-radius: 1vh;
     display: flex;
     flex-direction: column;
@@ -121,11 +117,6 @@ h1 {
 
 .btn-run-mode:active {
     background-color: #806e4f93;
-    box-shadow: 0px 0px 10px #000;
-}
-
-.selected {
-    background-color: #02460bc2;
     box-shadow: 0px 0px 10px #000;
 }
 
@@ -165,4 +156,54 @@ label {
 .btn-car-mode:active {
     background-color: #806e4f93;
     box-shadow: 0px 0px 10px #000;
+}
+
+#players h2 {
+    font-size: 7vh;
+}
+
+.player-box h3 {
+    font-size: 3vh;
+}
+
+input {
+    text-align: center;
+    font-size: 1.5vh;
+    font-weight: 600;
+    color: #fff;
+    height: 3vh;
+    width: 6vw;
+    background-color: transparent;
+    border-radius: 2vh;
+}
+
+.selected {
+    background-color: #02460bc2;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.btn:hover {
+    background-color: #143a0ae3;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#results {
+    text-align: center;
+    padding: 1vh;
+}
+
+#results h2 {
+    font-size: 7vh;
+}
+
+#results span {
+    font-size: 3vh;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
 }
