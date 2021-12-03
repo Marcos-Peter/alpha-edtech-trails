@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Crie uma página html contendo 4 campos do tipo numérico. 
+OKAY a. Adicione um botão com a função de armazenar os números digitados em um vetor na memória; 
+OKAY b. Adicione um botão que reorganize e exiba o vetor ao contrário. Ex.: [0,3,4,9] -> [9,4,3,0] 
+c. Adicione um botão que ordene em ordem crescente e exiba o vetor ordenado. Ex.: [23,7,33,1] -> [1,7,23,33] 
+Obs.: Não será permitido o uso de funções prontas da linguagem, tais como o método sort().  -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalhando com Arrays</title>
+    </head>
+    <body>
+        <header id="header">
+            <h1>Trabalhando com Arrays</h1>
+        </header>
+        <main id="main">
+            <section class="container">
+                <h2>Preencha os campos:</h2>
+                <div class="row">
+                    <form class="row">
+                        <label for="field-0">
+                            <span>primeiro número</span>
+                            <input type="number" name="field-0" id="field-0">
+                        </label>
+                        <label for="field-1">
+                            <span>segundo número</span>
+                            <input type="number" name="field-1" id="field-1">
+                        </label>
+                        <label for="field-2">
+                            <span>terceiro número</span>
+                            <input type="number" name="field-2" id="field-2">
+                        </label>
+                        <label for="field-3">
+                            <span>quarto número</span>
+                            <input type="number" name="field-3" id="field-3">
+                        </label>
+                    </form>
+                    <button id="btn-record" class="btn">salvar</button>
+                </div>
+                </section>
+            <section class="container">
+                <h2>Array Invertido</h2>
+                <div class="row">
+                    <div class="field">
+                        <span>primeiro número</span>
+                        <span id="r-field-0" class="box"></span>
+                    </div>
+                    <div class="field">
+                        <span>segundo número</span>
+                        <span id="r-field-1" class="box"></span>
+                    </div>
+                    <div class="field">
+                        <span>terceiro número</span>
+                        <span id="r-field-2" class="box"></span>
+                    </div>
+                    <div class="field">
+                        <span>quarto número</span>
+                        <span id="r-field-3" class="box"></span>
+                    </div>
+                    <button id="btn-reverse" class="btn">inverter</button>
+                </div>
+            </section>
+            <section class="container">
+                <h2>Ordem Crescente</h2>
+                <div class="row">
+                    <div class="field">
+                        <span>primeiro número</span>
+                        <span id="as-field-0" class="box"></span>
+                    </div>
+                    <div class="field">
+                        <span>segundo número</span>
+                        <span id="as-field-1" class="box"></span>
+                    </div>
+                    <div class="field">
+                        <span>terceiro número</span>
+                        <span id="as-field-2" class="box"></span>
+                    </div>
+                    <div class="field">
+                        <span>quarto número</span>
+                        <span id="as-field-3" class="box"></span>
+                    </div>
+                    <button id="btn-ascending" class="btn">crescente</button>
+                </div>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
