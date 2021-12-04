@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vw;
+    background-image: linear-gradient(to right, #242425 0%, #2e3144 100%);
+}
+
+header {
+    border-radius: 1rem;
+    background-image: linear-gradient(to top, #49494e 0%, #1d1e22 50%);
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1vw;
+}
+
+h1 {
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(181, 194, 191, 0.603);
+    box-shadow: 0 0.5vw 0.5vw rgba(0, 0, 0, 0.5);
+    font-size: 1vw;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 1vw;
+    border-radius: 1rem;
+}
+
+h2:hover {
+    background-color: rgb(181, 194, 191);
+}
+
+header img {
+    padding: 0;
+    padding-top: 1rem;
+    border: none;
+    width: 15vw;
+    border-radius: 50%;
+    margin: 1vw;
+    box-shadow: 0 0.5vw 0.5vw 0 rgba(0, 0, 0, 0.5);
+}
+
+ul ::marker {
+    color: rgb(255, 255, 255);
+
+}
+
+.container {
+    color: #17191b;
+    background-color: #edf2f471;
+    padding: 1.5rem;
+    border: 4px dotted rgba(0, 0, 0, 0.699);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.content {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: .3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.big-card {
+    border-radius: .5rem;
+    margin-top: .8rem;
+    padding: 1rem;
+    width: 60%;
+    height: 15vw;
+}
+
+.med-card {
+    border-radius: .5rem;
+    margin-top: .8rem;
+    padding: 1rem;
+    width: 45%;
+    height: 15vw;
+}
+
+.small-card {
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-top: .8rem;
+    width: 30%;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    background-color: rgba(146, 184, 240, 0.473);
+    text-align: justify;
+}
+
+#skills {
+    background-color: rgba(211, 229, 255, 0.473);
+}
+#lang {
+    background-color: rgba(211, 229, 255, 0.473);
+}
+
+#education {
+    background-color: rgba(146, 184, 240, 0.473);
+}
+#xp {
+    background-color: rgba(146, 184, 240, 0.473);
+}
+
+#contacts {
+    background-color: rgba(211, 229, 255, 0.473);
+}
+
+#about:hover {
+    background-color: rgb(146, 184, 240);
+    text-align: justify;
+}
+
+#skills:hover {
+    background-color: rgb(163, 179, 202);
+}
+
+#lang:hover {
+    background-color: rgb(163, 179, 202);
+}
+
+#education:hover {
+    background-color: rgb(146, 184, 240);
+}
+
+#xp:hover {
+    background-color: rgb(146, 184, 240);
+}
+
+#contacts:hover {
+    background-color: rgb(163, 179, 202);
+}
+
+.big-card:hover {
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.384);
+}
+
+.med-card:hover {
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.384);
+}
+
+.small-card:hover {
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.384);
+}
+
+.social {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    justify-content: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-linkedin {
+   background: #007bb5;
+   color: white;
+   align-self: center;
+}
+
+.fa-github {
+    background: #0a0a0a;
+    color: white;
+    align-self: center;
+}
