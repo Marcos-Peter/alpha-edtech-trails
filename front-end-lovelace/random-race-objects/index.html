@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Uma corrida aleatória</title>
+    </head>
+    <body>
+        <main id="main">
+            <section class="container">
+                <article id="presentation" class="box">
+                    <h1>corrida maluca</h1>
+                    <h2>Pedro, Juca e Edna vão disputar uma corrida.</h2>
+                    <div class="row">
+                        <button id="btn-players" class="btn">pilotos</button>
+                    </div>
+                </article>
+                <article id="players" class="box hide">
+                    <h2>Jogadores</h2>
+                    <article class="pilots"> 
+                        <div class="player-box">
+                            <h3>Pedro</h3>
+                            <h4>Características:</h4>
+                            <p>
+                                <ul>
+                                    <li>Velocidade Mínima: 150 km/h</li>
+                                    <li>Velocidade Máxima: 230 km/h</li>
+                                    <li>Derrapagem: 3%</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="player-box">
+                            <h3>Juca</h3>
+                            <h4>Características:</h4>
+                            <p>
+                                <ul>
+                                    <li>Velocidade Mínima: 120 km/h</li>
+                                    <li>Velocidade Máxima: 260 km/h</li>
+                                    <li>Derrapagem: 5%</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="player-box">
+                            <h3>Edna</h3>
+                            <h4>Características:</h4>
+                            <p>
+                                <ul>
+                                    <li>Velocidade Mínima: 180 km/h</li>
+                                    <li>Velocidade Máxima: 220 km/h</li>
+                                    <li>Derrapagem: 1%</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <div class="row">
+                        <button id="btn-back" class="btn">voltar</button>
+                        <button id="btn-play" class="btn">começar</button>
+                    </div>
+                </article>
+                <article id="run" class="box hide">
+                    <h2>Escolha o modo de corrida:</h2>
+                    <div class="row">
+                        <div id="speed-run" class="btn-run-mode">
+                            <h3>corrida rápida</h3>
+                            <span>10 Voltas</span>
+                        </div>
+                        <div id="grand-prix" class="btn-run-mode">
+                            <h3>grande prêmio</h3>
+                            <span>70 Voltas</span>
+                        </div>
+                        <div id="enduro" class="btn-run-mode">
+                            <h3>enduro</h3>
+                            <span>160 Voltas</span>
+                        </div>
+                    </div>
+                    <h2>Corrida personalizada:</h2>
+                    <form>
+                        <label for="turns">
+                            Informe o número de voltas:
+                            <input type="number" name="turns" id="turns">
+                        </label>
+                    </form>
+                    <button id="btn-custom" class="btn">customizado</button>
+                    <h2>Agora os carros são gerados aleatoriamente:</h2>
+                    <div class="row">
+                        <div id="pre-selected" class="btn-car-mode">gerar</div>
+                        <!-- <div id="random" class="btn-car-mode">aleatórias</div> -->
+                    </div>
+                    <h2>Vamos Correr!</h2>
+                    <button id="btn-ready" class="btn">correr!</button>
+                </article>
+                <article id="results" class="box hide">
+                    <h2>Vencedor:</h2>
+                    <span id="winner"></span>
+                    <h2>Voltas Ganhas:</h2>
+                    <span id="turnsWon"></span>
+                    <h2>Modelo do carro:</h2>
+                    <span id="carModel"></span>
+                    <button id="close" class="btn">fechar</button>
+                </article>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
