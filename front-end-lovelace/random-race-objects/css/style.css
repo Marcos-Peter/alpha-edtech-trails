@@ -224,3 +224,7 @@ input {
 .hide {
     display: none;
 }
+
+#carModel {
+    text-transform: capitalize;
+}
