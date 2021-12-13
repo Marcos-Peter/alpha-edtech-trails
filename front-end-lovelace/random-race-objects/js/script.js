@@ -102,6 +102,7 @@ function generateCars() {
     console.log(carType(type));
 
     for(let i = 0; i < 3; i++) {
+
         if(i == 0) {
             pilot = "pedro";
         } else if(i == 1) {
@@ -408,3 +409,4 @@ function showResults(){
     document.getElementById('btn-custom').classList.remove('selected');
     document.getElementById('pre-selected').classList.remove('selected');
 };
+
