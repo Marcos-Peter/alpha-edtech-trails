@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<!-- 
+    Joana mora no interior e tem uma loja de roupas que ainda utiliza duplicatas de papel para controlar os seus recebíveis, porém, Joana tem enfrentado dificuldades com inadimplência e está muito moroso calcular os juros das contas a receber que ela tem em aberto.
+    Joana pediu ajuda aos aspirantes do Alpha EdTech para criarem uma solução que seja capaz de armazenar seus recebíveis em um vetor de objetos e utilizar o método map para executar o cálculo de juros de cada recebível em atraso.
+    Regras: 
+    # Crie um formulário contendo: Nome do Cliente, Data de Vencimento e Valor da Compra;
+    # Armazene as informações em um vetor de objetos, apresente-os em forma de tabela no html e limpe o formulário;
+    Adicione um botão para calcular os juros de todas as duplicatas vencidas para facilitar a vida de Joana.
+    Joana aplica 2% de mora para duplicatas vencidas + 0,1% ao dia. Os juros são aplicados de forma simples, logo se são 30 dias em atraso, o total de juros é calculado da seguinte forma: 30 * 0,1 = 3%.
+ -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Controle de Juros</title>
+    </head>
+    <body>
+        <main>
+            <section id="container">
+                <h1>Alpha Solutions</h1>
+                <article id="form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nome do Cliente</label>
+                            <input type="text" name="name" id="name" placeholder="nome completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Data de Vencimento</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="value">Valor da Compra</label>
+                            <input type="number" name="value" id="amount" placeholder="R$ 0,00">
+                        </div>
+                    </form>
+                    <button id="btn-record" class="btn">cadastrar</button>
+                </article>
+                <article id="result-fees">
+                    <h2>Juros Aplicados</h2>
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Vencimento</th>
+                                <th>Valor</th>
+                                <th>Atraso</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <input id="btn-calculate" class="btn" value="calcular">
+                </article>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
