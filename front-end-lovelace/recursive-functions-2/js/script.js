@@ -4,13 +4,13 @@ const array = [
   [7,8,9]
 ];
 
-alert("Press 'F12' or 'Ctrl+Shift+I' to see the console.");
+// alert("Press 'F12' or 'Ctrl+Shift+I' to see the console.");
 
-console.log("Hello World");
-console.log("\n\n");
-console.log("Now we'll print the array using recursive functions.");
-console.log("\n");
-console.log("To call te function just type 'printArray(array,0,0);'");
+// console.log("Hello World");
+// console.log("\n\n");
+// console.log("Now we'll print the array using recursive functions.");
+// console.log("\n");
+// console.log("To call te function just type 'printArray(array,0,0);'");
 
 function printArray(_array, _x, _y) {
 	const length = _array.length;
@@ -24,4 +24,6 @@ function printArray(_array, _x, _y) {
   }
 };
 
-console.log("If you want to see the function itself, just type 'printArray.toString();'");
+printArray(array,0,0);
+
+// console.log("If you want to see the function itself, just type 'printArray.toString();'");
